@@ -61,3 +61,6 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 
 # include simple form
 gem 'simple_form'
+
+# include device gem for user signing
+gem 'devise'
