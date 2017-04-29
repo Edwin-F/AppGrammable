@@ -7,7 +7,7 @@ RSpec.describe GramsController, type: :controller do
       delete :destroy, params: { id: gram.id }
       expect(response).to redirect_to root_path
       gram = Gram.find_by_id(gram.id)
-      expect(response).to eq nil
+      expect(gram).to eq nil
     end
 
     it "should return a 404 message if we cannot find a gram with the id that is specified" do
