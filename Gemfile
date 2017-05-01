@@ -56,12 +56,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
 # include boostrap
 gem 'bootstrap', '~> 4.0.0.alpha6'
-
 # include simple form
 gem 'simple_form'
-
 # include device gem for user signing
 gem 'devise'
+gem 'carrierwave', '~> 1.0'
+gem 'figaro'
+gem 'fog'
