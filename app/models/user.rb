@@ -6,4 +6,8 @@ class User < ApplicationRecord
 
   has_many :grams
   has_many :comments, dependent: :destroy
+
+  def to_param
+    email
+  end
 end

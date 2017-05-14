@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :grams do
     resources :comments, only: :create
   end
+  resource :users, param: :email, only: :show
 end
