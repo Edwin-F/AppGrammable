@@ -1,4 +1,4 @@
-= Nomster
+= Grammable
 
 A simple Instagram clone with a mobile-fist design & built using Rspec for Test Driven Development.
 
@@ -35,3 +35,9 @@ Download and Install Postgres[https://www.postgresql.org/download/]
 - Run migrations to create tables:
 
   <tt> rails db:migrate </tt>
+
+=== Run RSpec
+
+- Run the test suite by running the following command:
+
+  <tt> bundle exec rspec </tt>
